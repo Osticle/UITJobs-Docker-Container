@@ -1,0 +1,29 @@
+services:
+  uitjobs-be:
+    image: sugm4d1c/uitjobs-be:v1
+    container_name: uitjobs-be
+    restart: unless-stopped
+    environment:
+      - FRONTEND_URL=http://localhost
+
+  uitjobs-fe:
+    image: sugm4d1c/uitjobs-fe:v1
+    container_name: uitjobs-fe
+    restart: unless-stopped
+    environment:
+      - API_URL=http://nginx-proxy/api
+      - NEXT_PUBLIC_API_URL=/api
+
+  nginx-proxy:
+    image: sugm4d1c/nginx-proxy:v1
+    container_name: nginx-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - uitjobs-be
+      - uitjobs-fe
+
+networks:
+  default:
+    name: uitjobs
