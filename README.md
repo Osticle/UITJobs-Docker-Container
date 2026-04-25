@@ -24,7 +24,29 @@ git clone https://github.com/Osticle/UITJobs-Docker-Container.git
 cd UITJobs-Docker-Container
 ```
 
-### 2. Deploy with Docker Compose
+### 2. Environment Configuration
+
+Before running the system, you must configure the environment variables for both Backend and Frontend.
+
+1. **Get the `.env` files:**
+   Contact the administrator at **khanguyenduong07@gmail.com** to request the pre-configured `.env` files.
+
+2. **Place the files:**
+   Create the necessary directories and place the `.env` files into their respective folders as follows:
+   - Put the **Backend .env** file into: `./BE/.env`
+   - Put the **Frontend .env** file into: `./FE/.env`
+
+   **Project structure should look like this:**
+   ```text
+   .
+   ├── compose.yaml
+   ├── BE/
+   │   └── .env
+   └── FE/
+       └── .env
+   ```
+
+### 3. Deploy with Docker Compose
 
 Pull the latest pre-built images from Docker Hub:
 ```bash
@@ -36,7 +58,7 @@ Launch the system in detached mode:
 docker compose up -d
 ```
 
-### 3. Verify Status
+### 4. Verify Status
 Check if all containers are running correctly:
 ```bash
 docker compose ps
