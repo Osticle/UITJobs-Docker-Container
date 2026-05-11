@@ -40,6 +40,7 @@ Before running the system, you must configure the environment variables for both
    ```text
    .
    ├── compose.yaml
+   ├── .env
    ├── BE/
    │   └── .env
    └── FE/
