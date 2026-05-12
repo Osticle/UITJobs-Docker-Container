@@ -7,6 +7,9 @@ services:
       - ./BE/.env
     environment:
       - NODE_ENV=production
+      - FRONTEND_URL=http://localhost
+      - DOMAIN_FRONTEND=http://localhost
+      - PORT=4001
 
   uitjobs-fe:
     image: sugm4d1c/uitjobs-fe:v1
@@ -15,6 +18,8 @@ services:
     env_file:
       - ./FE/.env
     environment:
+      - API_URL=http://nginx-proxy/api
+      - NEXT_PUBLIC_API_URL=/api
       - NODE_ENV=production
     depends_on:
       - uitjobs-be
