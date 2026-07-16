@@ -93,8 +93,20 @@ Once the deployment is successful, you can access the application at:
 
 ## Screenshots
 
-<img width="602" height="399" alt="Image" src="https://github.com/user-attachments/assets/94569132-fa18-4aae-9bb6-4a06284d6bc8" />
 
-<img width="602" height="414" alt="Image" src="https://github.com/user-attachments/assets/212c2f99-de36-49c2-9109-5e3b89dc42c7" />
+<img width="1250" height="812" alt="Image" src="https://github.com/user-attachments/assets/56fc75a8-2b12-42ce-bc28-30947ac0b7f4" />
 
-<img width="602" height="319" alt="Image" src="https://github.com/user-attachments/assets/e1a42a0a-a995-42fc-9d52-288a1f995597" />
+
+<img width="1263" height="551" alt="Image" src="https://github.com/user-attachments/assets/ad3de90b-0cf2-4ded-912e-6af8daa485da" />
+
+
+<img width="1240" height="559" alt="Image" src="https://github.com/user-attachments/assets/b45432ab-b77f-46a1-a21f-d9b164407b74" />
+
+
+<img width="1240" height="812" alt="Image" src="https://github.com/user-attachments/assets/e68da430-580a-4e14-9ec6-c97a93907d38" />
+
+
+<img width="1241" height="693" alt="Image" src="https://github.com/user-attachments/assets/a8a4e355-a959-4b80-b925-3e1517d13948" />
+
+
+<img width="1244" height="1032" alt="Image" src="https://github.com/user-attachments/assets/d17136ac-ad61-4ec2-8c80-1d173a862894" />
