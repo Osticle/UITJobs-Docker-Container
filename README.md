@@ -1,22 +1,22 @@
-# 🚀 UITJobs Docker Deployment
+# UITJobs Docker Deployment
 
 **UITJobs** is a comprehensive Full-stack recruitment platform—a hybrid of *ITViec* and *Glassdoor*—designed specifically for the **UIT-VNUHCM** ecosystem. The platform empowers candidates to discover career opportunities, review companies, and share interview insights. Simultaneously, it provides organizations with robust tools to post vacancies and manage applicants, all secured through Role-Based Access Control (RBAC).
 
 Containerized with Docker, the system is optimized for seamless deployment and scalability.
 
-## 🏗️ System Architecture
+## System Architecture
 
 The project consists of three core services:
 - **Backend (`uitjobs-be`)**: Handles business logic and API processing.
 - **Frontend (`uitjobs-fe`)**: User interface built with Next.js/React.
 - **Nginx Proxy (`nginx-proxy`)**: Orchestrates traffic and connects Frontend/Backend via port 80.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Docker** (v20.10 or higher)
 - **Docker Compose** (v2 or higher)
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### 1. Clone the Repository
 ```bash
@@ -65,14 +65,14 @@ Check if all containers are running correctly:
 docker compose ps
 ```
 
-## 🌐 Web Access
+## Web Access
 
 Once the deployment is successful, you can access the application at:
 - **URL:** [http://localhost](http://localhost) or [http://127.0.0.1](http://127.0.0.1)
 
 ---
 
-## 🛠️ Maintenance Commands
+## Maintenance Commands
 
 - **View logs:**
   ```bash
@@ -87,6 +87,6 @@ Once the deployment is successful, you can access the application at:
   docker compose restart
   ```
 
-## 📄 Additional Information
+## Additional Information
 - **Main Repository:** https://github.com/thaihadefi/Innovation-Project
 - **Docker Hub Images:** https://hub.docker.com/u/sugm4d1c
