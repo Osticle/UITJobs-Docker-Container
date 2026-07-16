@@ -90,3 +90,11 @@ Once the deployment is successful, you can access the application at:
 ## Additional Information
 - **Main Repository:** https://github.com/thaihadefi/Innovation-Project
 - **Docker Hub Images:** https://hub.docker.com/u/sugm4d1c
+
+## Screenshots
+
+<img width="602" height="399" alt="Image" src="https://github.com/user-attachments/assets/94569132-fa18-4aae-9bb6-4a06284d6bc8" />
+
+<img width="602" height="414" alt="Image" src="https://github.com/user-attachments/assets/212c2f99-de36-49c2-9109-5e3b89dc42c7" />
+
+<img width="602" height="319" alt="Image" src="https://github.com/user-attachments/assets/e1a42a0a-a995-42fc-9d52-288a1f995597" />
